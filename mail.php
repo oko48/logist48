@@ -11,3 +11,4 @@ $calendar =trim($_GET["calendar"]);
 $pagetitle = "Новая заявка с сайта \"$sitename\"";
 $message = "Имя: $name \nТелефон: $phone \nНа время: $hours \nДата: $calendar";
 mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");
+>
